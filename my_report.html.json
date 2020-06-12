@@ -1,0 +1,45 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Create PAR Flow - ACPG Lookup-Test",
+    "line": 3,
+    "id": "create-par-flow---acpg-lookup-test",
+    "tags": [
+      {
+        "name": "@Feature-APITest",
+        "line": 2
+      }
+    ],
+    "uri": "Features\\FirtsApITest.feature",
+    "elements": [
+      {
+        "id": "create-par-flow---acpg-lookup-test;get-the-api-url",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Get The API URL",
+        "tags": [
+          {
+            "name": "@Feature-APITest",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Get the API response and verify the status code",
+            "match": {
+              "location": "StepDef\\httpMethodsStep.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

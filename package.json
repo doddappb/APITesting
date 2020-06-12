@@ -1,0 +1,26 @@
+{
+  "name": "requestmodelapi",
+  "version": "1.0.0",
+  "description": "API Autmatin Testing using request module",
+  "main": "index.js",
+  "dependencies": {
+    "package.json": "^2.0.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "git": "^0.1.5",
+    "grunt": "^1.1.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-cucumber-coverage": "^1.0.0-rc.6",
+    "grunt-cucumberjs": "^2.0.2",
+    "grunt-shell": "^3.0.1",
+    "jshint-stylish": "^2.2.1"
+  },
+  "scripts": {
+    "test": "node ./StepDef/httpMethodsStep.js"
+  },
+  "author": "Biradar.",
+  "license": "ISC"
+}
